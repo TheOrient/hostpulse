@@ -31,7 +31,7 @@ FAIL  staging API: HTTP 503, 41 ms — expected HTTP 200
 - The optional text match is literal and case-sensitive; it is not an HTML parser. A mismatch cannot tell you *why* a site is unhealthy.
 - Use only endpoints you own or are authorized to check. A configuration file is treated as trusted input.
 
-The project grew from my hosting and server-support experience. AI-assisted coding helped with implementation and tests; I reviewed the behavior and kept the scope intentionally modest. See the tests for local HTTP server examples, including expected 404 responses and failure exit codes.
+The project grew from my hosting and server-support experience. AI-assisted coding helped with implementation and tests; the scope is intentionally modest and the behavior is covered by local tests. See the tests for HTTP server examples, including expected 404 responses and failure exit codes.
 
 ## License
 
