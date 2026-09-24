@@ -1,0 +1,8 @@
+[
+  {
+    "name": "local website",
+    "url": "http://127.0.0.1:8000/",
+    "expected_status": 200,
+    "contains": "ready"
+  }
+]
